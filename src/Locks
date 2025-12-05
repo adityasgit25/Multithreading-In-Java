@@ -11,3 +11,14 @@ Eg was many people try writing on the same notebook simultaneously.
 
 
 so basically to get more control we use explicit locks.
+
+
+
+Synchrnoised:
+There's no guarantee of,
+1. Fairness
+2. Blocking
+3. Interruptibility.
+4. Read/Write locking(But when do manual locking, this thing can be overcomed)
+
+
